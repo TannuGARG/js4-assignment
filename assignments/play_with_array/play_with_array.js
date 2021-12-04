@@ -35,15 +35,8 @@ function multiplyByN(arr, n) {
 }
 
 function removeNthElement(arr, n) {
-    /*
-        Return the array with the element present at index n removed
-        Example
-            Input: [1,3,4,6,7] 3
-            Output: [1,3,4,7]
-        Write you code below
-    */
-    arr.splice(n,1);
-    return arr;
+    return arr.splice(n,1);
+
 }
 
 module.exports = {
