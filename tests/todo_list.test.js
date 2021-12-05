@@ -9,8 +9,8 @@ describe('todo_list', () => {
         `;
         require('../assignments/todo_list/script');
 
-        const newTodoInput = document.querySelector('input');
         const addTodoBtn = document.querySelector('button');
+        const newTodoInput = document.querySelector('input');
         const todolist = document.querySelector('div.todos');
 
         newTodoInput.value = 'New todolist!';
