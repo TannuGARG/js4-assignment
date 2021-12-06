@@ -18,11 +18,7 @@ press.addEventListener("click",function(){
         TODO.removeChild(tag1)
     })
     input1.value=""
-    
-    
-    
-    
-    
+ 
 
 })
 
